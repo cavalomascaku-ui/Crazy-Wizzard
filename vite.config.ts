@@ -3,10 +3,8 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
-  base: '/',   // 👈 ISSO AQUI É CRÍTICO
-
+  base: '/Crazy-Wizzard/', // 👈 nome do seu repo
   plugins: [react()],
-
   resolve: {
     alias: {
       '@': path.resolve(__dirname, '.'),
