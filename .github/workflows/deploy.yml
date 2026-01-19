@@ -3,10 +3,10 @@ name: Deploy React Vite to GitHub Pages
 on:
   push:
     branches:
-      - main  # ou 'master' se teu repo usar master
+      - main
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
